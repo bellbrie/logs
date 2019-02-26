@@ -1,0 +1,488 @@
+2019-02-26 14:33:59 - INFO    :: MainThread : Starting Tautulli v2.1.26
+2019-02-26 14:33:59 - INFO    :: MainThread : Windows 10 (10.0.17134)
+2019-02-26 14:33:59 - INFO    :: MainThread : Europe/London (UTC+0000)
+2019-02-26 14:33:59 - INFO    :: MainThread : Python 2.7.15 (v2.7.15:ca079a3ea3, Apr 30 2018, 16:30:26) [MSC v.1500 64 bit (AMD64)]
+2019-02-26 14:33:59 - INFO    :: MainThread : Program Dir: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0
+2019-02-26 14:33:59 - INFO    :: MainThread : Config File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\config.ini
+2019-02-26 14:33:59 - INFO    :: MainThread : Database File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\tautulli.db
+2019-02-26 14:33:59 - INFO    :: MainThread : Checking if the database upgrades are required...
+2019-02-26 14:34:02 - DEBUG   :: MainThread : Altering database. Updating database table notify_log.
+2019-02-26 14:34:02 - DEBUG   :: MainThread : User 'Local' does not exist. Adding user.
+2019-02-26 14:34:03 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2019-02-26 14:34:03 - INFO    :: MainThread : Tautulli Notifiers :: Upgrading to new notification system...
+2019-02-26 14:34:03 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:34:03 - INFO    :: MainThread : Tautulli Libraries :: Upgrading library notification toggles...
+2019-02-26 14:34:03 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:34:03 - DEBUG   :: MainThread : Generating UUID...
+2019-02-26 14:34:03 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:34:03 - DEBUG   :: MainThread : Generating API key...
+2019-02-26 14:34:03 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:34:03 - DEBUG   :: MainThread : Generating JWT secret...
+2019-02-26 14:34:03 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:34:03 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2019-02-26 14:34:03 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2019-02-26 14:34:04 - DEBUG   :: MainThread : Latest version is aa023f016671e78463dd95e8f662cbc6cc712cf0
+2019-02-26 14:34:04 - INFO    :: MainThread : You are running an unknown version of Tautulli. Run the updater to identify your version
+2019-02-26 14:34:04 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:34:04 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2019-02-26 14:34:04 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2019-02-26 14:34:05 - INFO    :: MainThread : Launching system tray icon.
+2019-02-26 14:34:31 - INFO    :: CP Server Thread-13 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:35:31 - INFO    :: CP Server Thread-5 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:35:31 - INFO    :: CP Server Thread-5 : Tautulli PlexTV :: Requesting resources for server...
+2019-02-26 14:35:31 - INFO    :: CP Server Thread-5 : Tautulli PlexTV :: Using user-defined URL.
+2019-02-26 14:35:31 - INFO    :: CP Server Thread-5 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:35:32 - DEBUG   :: CP Server Thread-5 : Tautulli Monitor :: Checking for active streams.
+2019-02-26 14:35:32 - INFO    :: Thread-15 : Tautulli WebSocket :: Opening websocket.
+2019-02-26 14:35:32 - INFO    :: CP Server Thread-5 : Scheduled background task: Check GitHub for updates
+2019-02-26 14:35:32 - INFO    :: CP Server Thread-5 : Scheduled background task: Backup Tautulli database
+2019-02-26 14:35:32 - INFO    :: Thread-15 : Tautulli WebSocket :: Ready
+2019-02-26 14:35:32 - INFO    :: CP Server Thread-5 : Scheduled background task: Backup Tautulli config
+2019-02-26 14:35:32 - INFO    :: CP Server Thread-5 : Scheduled background task: Refresh Plex server URLs
+2019-02-26 14:35:32 - INFO    :: CP Server Thread-5 : Scheduled background task: Refresh users list
+2019-02-26 14:35:32 - INFO    :: CP Server Thread-5 : Scheduled background task: Refresh libraries list
+2019-02-26 14:35:32 - INFO    :: Thread-16 : Tautulli Libraries :: Requesting libraries list refresh...
+2019-02-26 14:35:32 - INFO    :: Thread-17 : Tautulli Users :: Requesting users list refresh...
+2019-02-26 14:35:32 - DEBUG   :: Thread-16 : Tautulli Pmsconnect :: No library data.
+2019-02-26 14:35:32 - INFO    :: Thread-16 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:35:32 - INFO    :: Thread-16 : Tautulli Libraries :: Libraries list refreshed.
+2019-02-26 14:35:32 - INFO    :: Thread-17 : Tautulli Users :: Users list refreshed.
+2019-02-26 14:35:37 - INFO    :: CP Server Thread-7 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:36:30 - INFO    :: CP Server Thread-6 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:36:30 - INFO    :: MainThread : Received signal: update
+2019-02-26 14:36:30 - INFO    :: MainThread : Stopping Tautulli web server...
+2019-02-26 14:36:36 - INFO    :: MainThread : Tautulli WebSocket :: Disconnecting websocket...
+2019-02-26 14:36:36 - DEBUG   :: Thread-15 : Tautulli WebSocket :: Leaving thread.
+2019-02-26 14:36:37 - INFO    :: Thread-1 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 14:36:37 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 14:36:37 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:36:37 - INFO    :: MainThread : Tautulli is updating...
+2019-02-26 14:36:37 - INFO    :: MainThread : Downloading update from: https://github.com/Tautulli/Tautulli/tarball/master
+2019-02-26 14:36:37 - DEBUG   :: MainThread : Requesting URL via GET method: https://github.com/Tautulli/Tautulli/tarball/master
+2019-02-26 14:37:02 - INFO    :: MainThread : Extracting file: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\master-github
+2019-02-26 14:37:15 - INFO    :: MainThread : Deleting file: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\master-github
+2019-02-26 14:37:36 - INFO    :: MainThread : Tautulli is restarting...
+2019-02-26 14:37:36 - INFO    :: MainThread : Restarting Tautulli with ['D:\\Python\\python.exe', 'D:\\VMWare\\Staging\\uGet\\Tautulli-Tautulli-aa023f0\\Tautulli.py', '--nolaunch']
+2019-02-26 14:37:43 - INFO    :: MainThread : Starting Tautulli v2.1.26
+2019-02-26 14:37:43 - INFO    :: MainThread : Windows 10 (10.0.17134)
+2019-02-26 14:37:43 - INFO    :: MainThread : Europe/London (UTC+0000)
+2019-02-26 14:37:43 - INFO    :: MainThread : Python 2.7.15 (v2.7.15:ca079a3ea3, Apr 30 2018, 16:30:26) [MSC v.1500 64 bit (AMD64)]
+2019-02-26 14:37:43 - INFO    :: MainThread : Program Dir: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0
+2019-02-26 14:37:43 - INFO    :: MainThread : Config File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\config.ini
+2019-02-26 14:37:43 - INFO    :: MainThread : Database File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\tautulli.db
+2019-02-26 14:37:43 - INFO    :: MainThread : Checking if the database upgrades are required...
+2019-02-26 14:37:43 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2019-02-26 14:37:43 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2019-02-26 14:37:43 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2019-02-26 14:37:44 - DEBUG   :: MainThread : Latest version is aa023f016671e78463dd95e8f662cbc6cc712cf0
+2019-02-26 14:37:44 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2019-02-26 14:37:44 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/compare/aa023f016671e78463dd95e8f662cbc6cc712cf0...None
+2019-02-26 14:37:44 - INFO    :: MainThread : Cannot compare versions. Are you running a local development version?
+2019-02-26 14:37:44 - INFO    :: MainThread : Tautulli is up to date
+2019-02-26 14:37:44 - INFO    :: MainThread : Tautulli PlexTV :: Requesting resources for server...
+2019-02-26 14:37:45 - INFO    :: MainThread : Tautulli PlexTV :: Using user-defined URL.
+2019-02-26 14:37:45 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:37:45 - INFO    :: MainThread : Tautulli Users :: Requesting users list refresh...
+2019-02-26 14:37:45 - INFO    :: MainThread : Tautulli Users :: Users list refreshed.
+2019-02-26 14:37:45 - INFO    :: MainThread : Tautulli Libraries :: Requesting libraries list refresh...
+2019-02-26 14:37:46 - DEBUG   :: MainThread : Tautulli Pmsconnect :: No library data.
+2019-02-26 14:37:46 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:37:46 - INFO    :: MainThread : Tautulli Libraries :: Libraries list refreshed.
+2019-02-26 14:37:46 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2019-02-26 14:37:46 - DEBUG   :: MainThread : Tautulli Monitor :: Checking for active streams.
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Tautulli WebSocket :: Opening websocket.
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Tautulli WebSocket :: Ready
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Scheduled background task: Check GitHub for updates
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli database
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli config
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Scheduled background task: Refresh Plex server URLs
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Scheduled background task: Refresh users list
+2019-02-26 14:37:46 - INFO    :: Thread-3 : Scheduled background task: Refresh libraries list
+2019-02-26 14:37:46 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2019-02-26 14:37:47 - INFO    :: CP Server Thread-10 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:38:11 - WARNING :: CP Server Thread-7 : Unable to retrieve data for library_recently_watched.
+2019-02-26 14:38:11 - WARNING :: CP Server Thread-14 : Unable to retrieve data for library_user_stats.
+2019-02-26 14:39:21 - INFO    :: CP Server Thread-8 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:41:31 - INFO    :: CP Server Thread-12 : Tautulli Newsletters :: Added new newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:42:57 - INFO    :: CP Server Thread-14 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:42:57 - INFO    :: CP Server Thread-14 : Tautulli NewsletterHandler :: Scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:43:10 - INFO    :: CP Server Thread-7 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:43:10 - INFO    :: CP Server Thread-7 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:45:39 - INFO    :: CP Server Thread-9 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:45:39 - INFO    :: CP Server Thread-9 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:46:08 - INFO    :: CP Server Thread-11 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:46:08 - INFO    :: CP Server Thread-11 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:47:35 - INFO    :: CP Server Thread-8 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:47:35 - INFO    :: CP Server Thread-8 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:47:39 - INFO    :: CP Server Thread-8 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:47:39 - INFO    :: CP Server Thread-8 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:47:57 - INFO    :: CP Server Thread-14 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:47:57 - INFO    :: CP Server Thread-14 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:47:57 - DEBUG   :: CP Server Thread-14 : Sending test Recently Added newsletter.
+2019-02-26 14:47:57 - INFO    :: Thread-1 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 14:47:58 - INFO    :: Thread-1 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_be234fa7.html'
+2019-02-26 14:48:01 - ERROR   :: Thread-1 : Tautulli Notifiers :: Email notification failed: (534, '5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor b9sm44315edc.23 - gsmtp')
+2019-02-26 14:48:35 - INFO    :: CP Server Thread-7 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:48:35 - INFO    :: CP Server Thread-7 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:54:33 - INFO    :: CP Server Thread-5 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:54:33 - INFO    :: Thread-15 : Tautulli Users :: Requesting users list refresh...
+2019-02-26 14:54:34 - INFO    :: Thread-15 : Tautulli Users :: Users list refreshed.
+2019-02-26 14:54:36 - INFO    :: MainThread : Received signal: restart
+2019-02-26 14:54:36 - INFO    :: MainThread : Stopping Tautulli web server...
+2019-02-26 14:54:36 - INFO    :: MainThread : Tautulli WebSocket :: Disconnecting websocket...
+2019-02-26 14:54:36 - DEBUG   :: Thread-3 : Tautulli WebSocket :: Leaving thread.
+2019-02-26 14:54:36 - INFO    :: Thread-1 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 14:54:36 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 14:54:36 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:54:36 - INFO    :: MainThread : Tautulli is restarting...
+2019-02-26 14:54:36 - INFO    :: MainThread : Restarting Tautulli with ['D:\\Python\\python.exe', 'D:\\VMWare\\Staging\\uGet\\Tautulli-Tautulli-aa023f0\\Tautulli.py', '--nolaunch']
+2019-02-26 14:54:38 - INFO    :: MainThread : Starting Tautulli v2.1.26
+2019-02-26 14:54:38 - INFO    :: MainThread : Windows 10 (10.0.17134)
+2019-02-26 14:54:38 - INFO    :: MainThread : Europe/London (UTC+0000)
+2019-02-26 14:54:38 - INFO    :: MainThread : Python 2.7.15 (v2.7.15:ca079a3ea3, Apr 30 2018, 16:30:26) [MSC v.1500 64 bit (AMD64)]
+2019-02-26 14:54:38 - INFO    :: MainThread : Program Dir: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0
+2019-02-26 14:54:38 - INFO    :: MainThread : Config File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\config.ini
+2019-02-26 14:54:38 - INFO    :: MainThread : Database File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\tautulli.db
+2019-02-26 14:54:38 - INFO    :: MainThread : Checking if the database upgrades are required...
+2019-02-26 14:54:38 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2019-02-26 14:54:38 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2019-02-26 14:54:38 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2019-02-26 14:54:38 - DEBUG   :: MainThread : Latest version is aa023f016671e78463dd95e8f662cbc6cc712cf0
+2019-02-26 14:54:38 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2019-02-26 14:54:38 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/compare/aa023f016671e78463dd95e8f662cbc6cc712cf0...None
+2019-02-26 14:54:39 - INFO    :: MainThread : Cannot compare versions. Are you running a local development version?
+2019-02-26 14:54:39 - INFO    :: MainThread : Tautulli is up to date
+2019-02-26 14:54:39 - INFO    :: MainThread : Tautulli PlexTV :: Requesting resources for server...
+2019-02-26 14:54:39 - INFO    :: MainThread : Tautulli PlexTV :: Using user-defined URL.
+2019-02-26 14:54:39 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:54:39 - INFO    :: MainThread : Tautulli Users :: Requesting users list refresh...
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli Users :: Users list refreshed.
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli Libraries :: Requesting libraries list refresh...
+2019-02-26 14:54:40 - DEBUG   :: MainThread : Tautulli Pmsconnect :: No library data.
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli Libraries :: Libraries list refreshed.
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2019-02-26 14:54:40 - DEBUG   :: MainThread : Tautulli Monitor :: Checking for active streams.
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Tautulli WebSocket :: Opening websocket.
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Tautulli WebSocket :: Ready
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Scheduled background task: Check GitHub for updates
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli database
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli config
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Scheduled background task: Refresh Plex server URLs
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Scheduled background task: Refresh users list
+2019-02-26 14:54:40 - INFO    :: Thread-3 : Scheduled background task: Refresh libraries list
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli NewsletterHandler :: Scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli WebStart :: Web server authentication is enabled: Tautulli admin (username is 'abtrad').
+2019-02-26 14:54:40 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2019-02-26 14:55:39 - DEBUG   :: CP Server Thread-12 : Tautulli WebAuth :: Admin user 'abtrad' logged into Tautulli using form login.
+2019-02-26 14:56:03 - INFO    :: CP Server Thread-10 : Tautulli Config :: Writing configuration to file
+2019-02-26 14:56:03 - INFO    :: Thread-15 : Tautulli Users :: Requesting users list refresh...
+2019-02-26 14:56:03 - INFO    :: Thread-15 : Tautulli Users :: Users list refreshed.
+2019-02-26 14:56:06 - INFO    :: MainThread : Received signal: restart
+2019-02-26 14:56:06 - INFO    :: MainThread : Stopping Tautulli web server...
+2019-02-26 14:56:16 - INFO    :: MainThread : Tautulli WebSocket :: Disconnecting websocket...
+2019-02-26 14:56:16 - DEBUG   :: Thread-3 : Tautulli WebSocket :: Leaving thread.
+2019-02-26 14:56:16 - INFO    :: Thread-1 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 14:56:16 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 14:56:16 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:56:16 - INFO    :: MainThread : Tautulli is restarting...
+2019-02-26 14:56:16 - INFO    :: MainThread : Restarting Tautulli with ['D:\\Python\\python.exe', 'D:\\VMWare\\Staging\\uGet\\Tautulli-Tautulli-aa023f0\\Tautulli.py', '--nolaunch']
+2019-02-26 14:56:17 - INFO    :: MainThread : Starting Tautulli v2.1.26
+2019-02-26 14:56:17 - INFO    :: MainThread : Windows 10 (10.0.17134)
+2019-02-26 14:56:17 - INFO    :: MainThread : Europe/London (UTC+0000)
+2019-02-26 14:56:17 - INFO    :: MainThread : Python 2.7.15 (v2.7.15:ca079a3ea3, Apr 30 2018, 16:30:26) [MSC v.1500 64 bit (AMD64)]
+2019-02-26 14:56:17 - INFO    :: MainThread : Program Dir: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0
+2019-02-26 14:56:17 - INFO    :: MainThread : Config File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\config.ini
+2019-02-26 14:56:17 - INFO    :: MainThread : Database File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\tautulli.db
+2019-02-26 14:56:17 - INFO    :: MainThread : Checking if the database upgrades are required...
+2019-02-26 14:56:17 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2019-02-26 14:56:17 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2019-02-26 14:56:17 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2019-02-26 14:56:18 - DEBUG   :: MainThread : Latest version is aa023f016671e78463dd95e8f662cbc6cc712cf0
+2019-02-26 14:56:18 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2019-02-26 14:56:18 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/compare/aa023f016671e78463dd95e8f662cbc6cc712cf0...None
+2019-02-26 14:56:19 - INFO    :: MainThread : Cannot compare versions. Are you running a local development version?
+2019-02-26 14:56:19 - INFO    :: MainThread : Tautulli is up to date
+2019-02-26 14:56:19 - INFO    :: MainThread : Tautulli PlexTV :: Requesting resources for server...
+2019-02-26 14:56:19 - INFO    :: MainThread : Tautulli PlexTV :: Using user-defined URL.
+2019-02-26 14:56:19 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:56:19 - INFO    :: MainThread : Tautulli Users :: Requesting users list refresh...
+2019-02-26 14:56:20 - INFO    :: MainThread : Tautulli Users :: Users list refreshed.
+2019-02-26 14:56:20 - INFO    :: MainThread : Tautulli Libraries :: Requesting libraries list refresh...
+2019-02-26 14:56:20 - DEBUG   :: MainThread : Tautulli Pmsconnect :: No library data.
+2019-02-26 14:56:20 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 14:56:20 - INFO    :: MainThread : Tautulli Libraries :: Libraries list refreshed.
+2019-02-26 14:56:20 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2019-02-26 14:56:20 - DEBUG   :: MainThread : Tautulli Monitor :: Checking for active streams.
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Tautulli WebSocket :: Opening websocket.
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Tautulli WebSocket :: Ready
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Scheduled background task: Check GitHub for updates
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli database
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli config
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Scheduled background task: Refresh Plex server URLs
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Scheduled background task: Refresh users list
+2019-02-26 14:56:20 - INFO    :: Thread-3 : Scheduled background task: Refresh libraries list
+2019-02-26 14:56:20 - INFO    :: MainThread : Tautulli NewsletterHandler :: Scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 14:56:20 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2019-02-26 14:57:15 - INFO    :: CP Server Thread-13 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 14:57:15 - INFO    :: CP Server Thread-13 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:00:03 - INFO    :: CP Server Thread-13 : Tautulli Config :: Writing configuration to file
+2019-02-26 15:00:11 - INFO    :: CP Server Thread-13 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:00:11 - INFO    :: CP Server Thread-13 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:02:58 - INFO    :: CP Server Thread-8 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:02:58 - INFO    :: CP Server Thread-8 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:03:26 - INFO    :: CP Server Thread-10 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:03:26 - INFO    :: CP Server Thread-10 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:10:53 - INFO    :: CP Server Thread-11 : Tautulli Config :: Writing configuration to file
+2019-02-26 15:11:02 - INFO    :: CP Server Thread-11 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:11:02 - INFO    :: CP Server Thread-11 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:16:23 - INFO    :: CP Server Thread-8 : Tautulli Config :: Writing configuration to file
+2019-02-26 15:16:43 - INFO    :: CP Server Thread-13 : Tautulli Config :: Writing configuration to file
+2019-02-26 15:16:46 - INFO    :: MainThread : Received signal: restart
+2019-02-26 15:16:46 - INFO    :: MainThread : Stopping Tautulli web server...
+2019-02-26 15:16:46 - INFO    :: MainThread : Tautulli WebSocket :: Disconnecting websocket...
+2019-02-26 15:16:46 - DEBUG   :: Thread-3 : Tautulli WebSocket :: Leaving thread.
+2019-02-26 15:16:46 - INFO    :: Thread-1 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 15:16:46 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2019-02-26 15:16:46 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 15:16:46 - INFO    :: MainThread : Tautulli is restarting...
+2019-02-26 15:16:46 - INFO    :: MainThread : Restarting Tautulli with ['D:\\Python\\python.exe', 'D:\\VMWare\\Staging\\uGet\\Tautulli-Tautulli-aa023f0\\Tautulli.py', '--nolaunch']
+2019-02-26 15:16:47 - INFO    :: MainThread : Starting Tautulli v2.1.26
+2019-02-26 15:16:47 - INFO    :: MainThread : Windows 10 (10.0.17134)
+2019-02-26 15:16:47 - INFO    :: MainThread : Europe/London (UTC+0000)
+2019-02-26 15:16:47 - INFO    :: MainThread : Python 2.7.15 (v2.7.15:ca079a3ea3, Apr 30 2018, 16:30:26) [MSC v.1500 64 bit (AMD64)]
+2019-02-26 15:16:47 - INFO    :: MainThread : Program Dir: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0
+2019-02-26 15:16:47 - INFO    :: MainThread : Config File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\config.ini
+2019-02-26 15:16:47 - INFO    :: MainThread : Database File: D:\VMWare\Staging\uGet\Tautulli-Tautulli-aa023f0\tautulli.db
+2019-02-26 15:16:47 - INFO    :: MainThread : Checking if the database upgrades are required...
+2019-02-26 15:16:47 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2019-02-26 15:16:47 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2019-02-26 15:16:47 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2019-02-26 15:16:48 - DEBUG   :: MainThread : Latest version is aa023f016671e78463dd95e8f662cbc6cc712cf0
+2019-02-26 15:16:48 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2019-02-26 15:16:48 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/compare/aa023f016671e78463dd95e8f662cbc6cc712cf0...None
+2019-02-26 15:16:49 - INFO    :: MainThread : Cannot compare versions. Are you running a local development version?
+2019-02-26 15:16:49 - INFO    :: MainThread : Tautulli is up to date
+2019-02-26 15:16:49 - INFO    :: MainThread : Tautulli PlexTV :: Requesting resources for server...
+2019-02-26 15:16:49 - INFO    :: MainThread : Tautulli PlexTV :: Using user-defined URL.
+2019-02-26 15:16:49 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 15:16:49 - INFO    :: MainThread : Tautulli Users :: Requesting users list refresh...
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli Users :: Users list refreshed.
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli Libraries :: Requesting libraries list refresh...
+2019-02-26 15:16:50 - DEBUG   :: MainThread : Tautulli Pmsconnect :: No library data.
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli Libraries :: Libraries list refreshed.
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2019-02-26 15:16:50 - DEBUG   :: MainThread : Tautulli Monitor :: Checking for active streams.
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Tautulli WebSocket :: Opening websocket.
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Tautulli WebSocket :: Ready
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Scheduled background task: Check GitHub for updates
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli database
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Scheduled background task: Backup Tautulli config
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Scheduled background task: Refresh Plex server URLs
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Scheduled background task: Refresh users list
+2019-02-26 15:16:50 - INFO    :: Thread-3 : Scheduled background task: Refresh libraries list
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli NewsletterHandler :: Scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli WebStart :: Web server authentication is enabled: Tautulli admin (username is 'abtrad').
+2019-02-26 15:16:50 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2019-02-26 15:22:53 - INFO    :: CP Server Thread-9 : Tautulli Config :: Writing configuration to file
+2019-02-26 15:23:04 - INFO    :: CP Server Thread-9 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:23:04 - INFO    :: CP Server Thread-9 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:23:14 - INFO    :: CP Server Thread-13 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:23:14 - INFO    :: CP Server Thread-13 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:23:14 - DEBUG   :: CP Server Thread-13 : Sending test Recently Added newsletter.
+2019-02-26 15:23:14 - INFO    :: Thread-1 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:23:18 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (poster) uploaded to Cloudinary.
+2019-02-26 15:23:18 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:23:27 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (art) uploaded to Cloudinary.
+2019-02-26 15:23:27 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:23:30 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (poster) uploaded to Cloudinary.
+2019-02-26 15:23:30 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:23:34 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (art) uploaded to Cloudinary.
+2019-02-26 15:23:34 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:23:37 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) uploaded to Cloudinary.
+2019-02-26 15:23:38 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:23:40 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) uploaded to Cloudinary.
+2019-02-26 15:23:40 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:23:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (poster) uploaded to Cloudinary.
+2019-02-26 15:23:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:23:46 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (art) uploaded to Cloudinary.
+2019-02-26 15:23:46 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:23:47 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) uploaded to Cloudinary.
+2019-02-26 15:23:47 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:23:51 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) uploaded to Cloudinary.
+2019-02-26 15:23:51 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:23:51 - INFO    :: Thread-1 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_b5627409.html'
+2019-02-26 15:23:51 - ERROR   :: Thread-1 : Tautulli Notifiers :: Email notification failed: (534, '5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor c42sm108730eda.3 - gsmtp')
+2019-02-26 15:30:07 - INFO    :: CP Server Thread-5 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:30:07 - INFO    :: CP Server Thread-5 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:30:14 - INFO    :: CP Server Thread-5 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:30:14 - INFO    :: CP Server Thread-5 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:30:14 - DEBUG   :: CP Server Thread-6 : Sending test Recently Added newsletter.
+2019-02-26 15:30:14 - INFO    :: Thread-2 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:30:14 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:30:14 - INFO    :: Thread-2 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_af29d533.html'
+2019-02-26 15:30:14 - ERROR   :: Thread-2 : Tautulli Notifiers :: Email notification failed: SMTP AUTH extension not supported by server.
+2019-02-26 15:32:17 - INFO    :: CP Server Thread-5 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:32:17 - INFO    :: CP Server Thread-5 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:32:23 - INFO    :: CP Server Thread-5 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:32:23 - INFO    :: CP Server Thread-5 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:32:23 - DEBUG   :: CP Server Thread-6 : Sending test Recently Added newsletter.
+2019-02-26 15:32:23 - INFO    :: Thread-1 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:32:23 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:32:23 - INFO    :: Thread-1 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_5f223f8f.html'
+2019-02-26 15:32:26 - ERROR   :: Thread-1 : Tautulli Notifiers :: Email notification failed: SMTP AUTH extension not supported by server.
+2019-02-26 15:38:26 - INFO    :: CP Server Thread-6 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:38:26 - INFO    :: CP Server Thread-6 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:38:26 - DEBUG   :: CP Server Thread-6 : Sending test Recently Added newsletter.
+2019-02-26 15:38:26 - INFO    :: Thread-2 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:38:26 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:38:26 - INFO    :: Thread-2 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_e8670a36.html'
+2019-02-26 15:38:26 - ERROR   :: Thread-2 : Tautulli Notifiers :: Email notification failed: SMTP AUTH extension not supported by server.
+2019-02-26 15:46:39 - INFO    :: CP Server Thread-9 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:46:39 - INFO    :: CP Server Thread-9 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:46:44 - INFO    :: CP Server Thread-9 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:46:44 - INFO    :: CP Server Thread-9 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:46:44 - DEBUG   :: CP Server Thread-10 : Sending test Recently Added newsletter.
+2019-02-26 15:46:44 - INFO    :: Thread-1 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:46:44 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:46:44 - INFO    :: Thread-1 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_e4b2715c.html'
+2019-02-26 15:46:48 - ERROR   :: Thread-1 : Tautulli Notifiers :: Email notification failed: (501, '5.1.7 Invalid address', u'Alan')
+2019-02-26 15:47:47 - INFO    :: CP Server Thread-13 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:47:47 - INFO    :: CP Server Thread-13 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:47:53 - INFO    :: CP Server Thread-13 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:47:53 - INFO    :: CP Server Thread-13 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:47:53 - DEBUG   :: CP Server Thread-13 : Sending test Recently Added newsletter.
+2019-02-26 15:47:53 - INFO    :: Thread-2 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:47:53 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:47:53 - INFO    :: Thread-2 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_2e7d0973.html'
+2019-02-26 15:47:58 - ERROR   :: Thread-2 : Tautulli Notifiers :: Email notification failed: (554, '5.2.0 STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message Cannot submit message. 16.55847:EC020000, 17.43559:0000000094000000000000000100000000000000, 20.52176:140F6B8600004010F1030000, 20.50032:140F6B868217103100000000, 0.35180:00000000, 255.23226:00000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:140F6B86, 16.55847:C8000000, 17.43559:0000000070010000000000000200000000000000, 20.52176:140F6B860000001003000136, 20.50032:140F6B8682170011F0080000, 0.35180:00000000, 255.23226:00000000, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:140F6B86, 4.21921:DC040000, 255.27962:FA000000, 255.1494:64000000, 0.38698:00000000, 0.37692:21080400, 0.37948:00000000, 5.33852:00000000534D545000382CBE, 4.56248:DC040000, 7.40748:010000000000010B302E3136, 7.57132:000000000000000030383031, 1.63016:32000000, 4.39640:DC040000, 8.45434:C727010074EA48DD000000000000000064653532, 5.10786:0000000031352E32302E313634332E3030303A4442365052303830314D42323032323A38633537313331632D643630312D346431382D396135352D6433383139646535323663650000000000, 255.1750:A0000000, 255.31418:0A005636, 0.22753:A5000000, 255.21817:DC040000, 4.60547:DC040000, 0.21966:03003866, 4.30158:DC040000 [Hostname=DB6PR0801MB2022.eurprd08.prod.outlook.com]')
+2019-02-26 15:50:42 - INFO    :: CP Server Thread-11 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:50:42 - INFO    :: CP Server Thread-11 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:50:50 - INFO    :: CP Server Thread-11 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:50:50 - INFO    :: CP Server Thread-11 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:50:50 - DEBUG   :: CP Server Thread-11 : Sending test Recently Added newsletter.
+2019-02-26 15:50:50 - INFO    :: Thread-1 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:50:50 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:50:50 - INFO    :: Thread-1 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_b009b602.html'
+2019-02-26 15:50:52 - ERROR   :: Thread-1 : Tautulli Notifiers :: Email notification failed: (554, '5.2.0 STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message Cannot submit message. 16.55847:DF020000, 17.43559:0000000094000000000000000000000000000000, 20.52176:140F6B8600004010F1030000, 20.50032:140F6B868217103100000000, 0.35180:00000000, 255.23226:00000000, 255.27962:0A000000, 255.27962:0E000000, 255.31418:140F6B86, 16.55847:C8000000, 17.43559:0000000070010000000000000200000000000000, 20.52176:140F6B860000001003000136, 20.50032:140F6B8682170011E3080000, 0.35180:00000000, 255.23226:00000000, 255.27962:0A000000, 255.27962:32000000, 255.17082:DC040000, 0.27745:140F6B86, 4.21921:DC040000, 255.27962:FA000000, 255.1494:64000000, 0.38698:00000000, 0.37692:05000780, 0.37948:00000000, 5.33852:00000000534D545000000000, 4.56248:DC040000, 7.40748:010000000000010B30303A44, 7.57132:000000000000000032323A38, 1.63016:32000000, 4.39640:DC040000, 8.45434:C727010074EA48DD000000000000000005000780, 5.10786:0000000031352E32302E313634332E3030303A4442365052303830314D42323032323A38633537313331632D643630312D346431382D396135352D6433383139646535323663650000000000, 255.1750:A0000000, 255.31418:0A005636, 0.22753:A5000000, 255.21817:DC040000, 4.60547:DC040000, 0.21966:03003866, 4.30158:DC040000 [Hostname=DB6PR0801MB2022.eurprd08.prod.outlook.com]')
+2019-02-26 15:53:26 - INFO    :: CP Server Thread-13 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:53:26 - INFO    :: CP Server Thread-13 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:53:33 - INFO    :: CP Server Thread-13 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:53:33 - INFO    :: CP Server Thread-13 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:53:34 - DEBUG   :: CP Server Thread-8 : Sending test Recently Added newsletter.
+2019-02-26 15:53:34 - INFO    :: Thread-2 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:53:34 - DEBUG   :: Thread-2 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:53:34 - INFO    :: Thread-2 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_4a49f842.html'
+2019-02-26 15:59:38 - INFO    :: CP Server Thread-11 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:59:38 - INFO    :: CP Server Thread-11 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:59:42 - INFO    :: CP Server Thread-11 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 15:59:42 - INFO    :: CP Server Thread-11 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 15:59:42 - DEBUG   :: CP Server Thread-7 : Sending test Recently Added newsletter.
+2019-02-26 15:59:42 - INFO    :: Thread-1 : Tautulli NewsletterHandler :: Preparing newsletter for newsletter_id 1.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (poster) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Life of the Party' (art) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (poster) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Action Point' (art) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (poster) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'Spider-Man: Into the Spider-Verse' (art) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (poster) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Orville' (art) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (poster) transformed on Cloudinary.
+2019-02-26 15:59:42 - DEBUG   :: Thread-1 : Tautulli Helpers :: Image 'The Big Bang Theory' (art) transformed on Cloudinary.
+2019-02-26 15:59:42 - INFO    :: Thread-1 : Tautulli Newsletters :: Recently Added newsletter saved to 'newsletter_548d4545.html'
+2019-02-26 16:27:43 - INFO    :: CP Server Thread-6 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:27:43 - INFO    :: CP Server Thread-6 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:27:47 - INFO    :: CP Server Thread-6 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:27:47 - INFO    :: CP Server Thread-6 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:27:47 - DEBUG   :: CP Server Thread-6 : Sending test Recently Added newsletter.
+2019-02-26 16:34:30 - INFO    :: CP Server Thread-7 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:34:30 - INFO    :: CP Server Thread-7 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:34:35 - INFO    :: CP Server Thread-7 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:34:35 - INFO    :: CP Server Thread-7 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:34:35 - DEBUG   :: CP Server Thread-7 : Sending test Recently Added newsletter.
+2019-02-26 16:38:57 - INFO    :: CP Server Thread-10 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:38:57 - INFO    :: CP Server Thread-10 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:39:05 - INFO    :: CP Server Thread-10 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:39:05 - INFO    :: CP Server Thread-10 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:39:15 - INFO    :: CP Server Thread-12 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:39:15 - INFO    :: CP Server Thread-12 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:39:15 - DEBUG   :: CP Server Thread-12 : Sending test Recently Added newsletter.
+2019-02-26 16:52:50 - INFO    :: CP Server Thread-14 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:52:50 - INFO    :: CP Server Thread-14 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:54:01 - INFO    :: CP Server Thread-14 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 16:54:01 - INFO    :: CP Server Thread-14 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 16:54:01 - DEBUG   :: CP Server Thread-14 : Sending test Recently Added newsletter.
+2019-02-26 17:04:02 - INFO    :: CP Server Thread-14 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 17:04:02 - INFO    :: CP Server Thread-14 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 17:04:09 - INFO    :: CP Server Thread-14 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 17:04:09 - INFO    :: CP Server Thread-14 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 17:04:09 - DEBUG   :: CP Server Thread-14 : Sending test Recently Added newsletter.
+2019-02-26 17:25:47 - INFO    :: CP Server Thread-7 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 17:25:47 - INFO    :: CP Server Thread-7 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 17:25:53 - INFO    :: CP Server Thread-7 : Tautulli Newsletters :: Updated newsletter agent: Recently Added (newsletter_id 1).
+2019-02-26 17:25:53 - INFO    :: CP Server Thread-7 : Tautulli NewsletterHandler :: Re-scheduled newsletter: Recently Added (newsletter_id 1)
+2019-02-26 17:25:53 - DEBUG   :: CP Server Thread-7 : Sending test Recently Added newsletter.
